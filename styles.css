@@ -1,0 +1,36 @@
+body{
+  background: #273040;
+  color: #fff;
+}
+.wrapper{
+  text-align: center;
+}
+.abouttext3{
+	padding: 6% 6% 6% 6%;
+    width: 70%;
+	z-index: 4;
+	position: relative;
+    margin: 0 auto 10%;
+    background-color: #1abc9c;
+    opacity: 0.9;
+    box-shadow: 0px 0px 115px #000000a6;
+}
+  .abouttext3 h2{
+	color:#fff;
+	font-family:SofiaPro-Bold;
+	text-align: center;
+	font-weight: normal;
+	font-size: 4vw;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+}
+.abouttext3 p{
+	color: #fff;
+  text-align: left;
+  }
+ .abouttext3 p{
+	font-family:SofiaPro-Regular;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
+}
