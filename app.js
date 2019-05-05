@@ -6,19 +6,6 @@ const typewriter = new Typewriter(app, {
 
 });
 
-// const myName = Khan Mohsin
-// const workAs = Web Developer
-// let Seeking = Job
-// if (YOU === still interested){
-// // then take a look at my video resume below to know more about me.
-// Video Resume: https://www.khanweb.site/about.html
-// }else if (YOU === still not convinced){
-// // Please take a moment to review my enclosed resume and my personal website
-// Website: https://www.khanweb.site
-// }else{
-// // If you have any question, please send me an email.
-// Thank you for your time and consideration.
-// }
 const intro = 'Hi There'
 const myName = 'Khan Mohsin'
 const email = 'hello@khanweb.site';
@@ -50,7 +37,7 @@ typewriter.typeString(`<h1>const intro = '${intro}'<h1>`)
     .typeString(  ` <h3>const workAs = '${workAs}'<h3>`)
     .typeString(  ` <h3>let seek = '${seek}'<h3>`)
     .typeString(  ` <h3>let condition = ['still interested', 'still not convinced']<h3>`)
-    .typeString(  ` <h3>let you = ${you}</h3>`)
+    .typeString(  ` <h3>let you = '${you}'</h3>`)
     .typeString(  ` <h3>const hireMe = () =>{ <h3>`)
     .typeString(  ` <h3>if ( you === '${condition[0]}'){<h3>`)
     .typeString(  ` // then take a look at my video resume below to know more about me.`)
