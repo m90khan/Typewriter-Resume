@@ -40,7 +40,7 @@ console.log(myWebsite);
 console.log(` // If you have any question, please send me an email at ${email}. \n${thankYou}`)
 }
 }
-typewriter.typeString(`<h1>${intro}<h1>`)
+typewriter.typeString(`<h1>const intro = '${intro}'<h1>`)
     .pauseFor(2000)
     .typeString(  `// Lets start first with an little intrdoctoin`)
     .deleteChars(7)
