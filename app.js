@@ -29,9 +29,9 @@ console.log(` // If you have any question, please send me an email at ${email}. 
 }
 typewriter.typeString(`<h1>const intro = '${intro}'<h1>`)
     .pauseFor(2000)
-    .typeString(  `// Lets start first with an little intrdoctoin`)
-    .deleteChars(7)
-    .typeString(`<strong>oduction</strong> about me`)
+    .typeString(  `// Lets start first with a little intrdoctoin`)
+    .deleteChars(11)
+    .typeString(`<strong>Introduction</strong> about me`)
     .typeString(  ` <h3>const myName = '${myName}'<h3>`)
     .typeString(  ` <h3>const email = '${email}'<h3>`)
     .typeString(  ` <h3>const workAs = '${workAs}'<h3>`)
