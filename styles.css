@@ -1,6 +1,61 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   background: #273040;
   color: #fff;
+  position:  relative;
+  height: 100vh;
+}
+.bg-01{
+  position: fixed;
+  background: url('images/about-bg.png');
+  height: 100vh;
+  width: 100%;
+  transition: opacity 5s;
+  z-index: 99;
+}
+.preloader{
+background: #273040;
+  position: absolute;
+  top:45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+.preload-finish{
+  opacity: 0;
+  pointer-events: none;
+}
+path{
+  stroke: #fff;
+  fill: #fff;
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 1s cubic-bezier(0,0.23,1,0.1)
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  30%{
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  90%{
+         fill: rbga(255,255,255,0);
+  }
+  100%{
+    opacity: 10;
+    fill: rbga(255,255,255,1);
+    stroke-dashoffset:  0;
+  }
 }
 .wrapper{
   text-align: center;
@@ -8,7 +63,6 @@ body{
 .abouttext3{
 	padding: 6% 6% 6% 6%;
     width: 70%;
-	z-index: 4;
 	position: relative;
     margin: 0 auto 10%;
     background-color: #1abc9c;

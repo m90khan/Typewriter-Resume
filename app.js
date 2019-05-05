@@ -1,9 +1,11 @@
-const app = document.getElementById('app');
+window.addEventListener('load', () =>{
+  const preload = document.querySelector('.bg-01');
+  preload.classList.add('preload-finish');
+});
 
-const contact = "<a href='m90khan@gmail.com'>here</a>"
+const app = document.getElementById('app');
 const typewriter = new Typewriter(app, {
     loop: false
-
 });
 
 const intro = 'Hi There'
